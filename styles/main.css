@@ -8,8 +8,11 @@ body {
 a {
     text-decoration: none;
 }
-a: hover {
-    text-decoration: underline
-    color:red
+header {
+    text-align: center;
+    background: white;
+    border-bottom-color: rgb(58, 129, 196)  
 
 }
+
+  
