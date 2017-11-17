@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>James' Website</title>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
   </head>
   <body>
-  
-  </body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns"> 
+          <h1> James' Website</h1>
+        </div>
+
+      </div>
+      
+      <div class="row">
+        <div class="six columns">
+          <p>use as basis to get skeleton site up and running</p>
+          <ul>
+            <li> list header </li>
+            <ul>
+              <li>test</li>
+              <li>test</li>
+              <li>test</li>
+            </ul>
+          </ul>
+        </div>
+        
+        <div class="six columns">
+          <p> Keep it simple until mastered basic structure</p>
+          <p>Remember everything goes inside <code>class="container"</code>. Columns (<code>class="twelve columns"</code>) go inside rows</p>
+          <p>There's a simple <code>custom.css</code> file <a href="https://github.com/dev-academy-programme/curriculum/blob/master/resources/html-skeleton-EXAMPLE/custom.css"> here</a> if you need an example to get you started.</p>
+
+        </div>
+      </div> 
+      <hr>
+
+      <div class="row">
+        <div class="four columns">
+          Here's a three column layout
+        </div>
+
+        <div class="four columns"> 
+          Total of column widths must add to 12 
+        </div>
+
+        <div class="four columns">
+          so 4+4+4 = 12
+        </div>
+      </div>
+      <hr>
+
+      <div class="row highlight">
+        <div class="twelve columns">
+          This row uses a custom class, <code>highlight</code>, to add some emphasis. Not part of Skeleton framework - you can add or override if you want. Make sure that custom styles come <strong> last</strong> in the list of <code>link</code> elements in your <code>head</code>.
+        </div>
+      </div>  
+      <hr>
+    </div>   
+  </body> 
 </html>
