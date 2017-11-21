@@ -31,3 +31,8 @@ body {
 .blog{
   padding-left: 2rem;
 }
+
+.wireframe{
+  max-width:50px;
+  border: 100px;
+}
