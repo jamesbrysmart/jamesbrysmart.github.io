@@ -1,1 +1,25 @@
+.banner {
+  background-image: url(http://iliketowastemytime.com/sites/default/files/mountains-new-zealand-hd-background.jpg);
+  background-size: cover; 
+  height: 500px;
    
+}   
+
+.banner-heading {
+  text-align: center;
+  color: white; 
+  padding: 20%; 
+ }
+
+body {
+  padding: 5rem;    
+}
+
+.name {
+  text-align:right;
+  font-size: 5rem; 
+  padding: 10%;
+}
+.list {
+  padding: 2rem
+}
