@@ -21,5 +21,13 @@ body {
   padding: 10%;
 }
 .list {
-  padding: 2rem
+   font-style: italic;
+}
+
+.blog-posts{
+  padding-top: 3rem;
+}
+
+.blog{
+  padding-left: 2rem;
 }

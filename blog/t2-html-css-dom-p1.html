@@ -1,39 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>James' website </title>
+    <title>James' Website </title>
     <meta charset="UTF-8">
-    <link href="https://jamesbrysmart.github.io/styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">   
   </head>
-  
-  <body> 
-    <header>
-      <h1>
-        James Bryant
-      </h1>
-    </header>
-    <h2>
-        Tech blog 1
-    </h2>
-    <h4>How to describe HTML, CSS and DOM?</h4>
-    <p> HTML are the building blocks - it establishes the structure and foundations of the website. Using a house analogy, 
-        HTML would decide how many rooms etc. CSS would be the designer, deciding on the layout of the kitchen, the colour of the walls etc. 
-        The DOM is somewhat harder to explain with such a simple analogy - essentially it is what is making the HTML and CSS interact with each other
-        to create the website. Maybe a project manager is a good analogy, making sure the designer and builders communicate to create the house.
-    </p>
-    <h4>
-        What is meant by boxifying design?
-    </h4>
-    <p>
-        Boxifying design is a way of breaking down a complex design into easily manageable bits, so we can build from the bottom up rather than 
-        looking at the whole web page and trying to work out where to start.
-    </p>        
-    <h4>
-        What is the box model?
-    </h4>
-    <p>
-        The box model helps us understand that every webpage is broken down into boxes, each with their own 'margin', 'border' and 'padding' (each of which is editable) which 
-        will dictate how the element fits in alongside other boxes on the page.  
-    </p>
-  </body>
-</html>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <img class="profile" src="../images/profile_pic_circle.jpg"> 
+          </div>
+          <div class="eight columns">
+            <h2 class="name">James Bryant</h2> 
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="banner">
+      <div class="container">
+        <h1 class="banner-heading">
+          <strong> A journey into the unknown... </strong> 
+        </h1>
+      </div>
+    </div> 
+    <div class="container blog-posts"> 
+      <div class="row">
+        <div class="three columns list">
+        <h3>Blog posts</h3>    
+          <ul>
+            <li> <a href="https://jamesbrysmart.github.io/blog/c1-reflection-blog.html"> Reflection </a></li>
+            <li> <a href="https://jamesbrysmart.github.io/blog/c1-time-and-habits-blog.html"> Time and habits </a> </li>
+            <li> <a href="https://jamesbrysmart.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+            <li> <a href="https://jamesbrysmart.github.io/blog/t2-html-css-dom-p1.html">Tech blog 1</a></li>
+            <li> <a href="https://jamesbrysmart.github.io/blog/t2-html-css-dom-p2.html">Tech blog 2</a></li>
+          </ul> 
+        </div> 
+        <div class="nine columns blog">
+          <h2> Tech Blog 1</h2>
+          <h4>How to describe HTML, CSS and DOM?</h4>
+          <p> 
+            HTML are the building blocks - it establishes the structure and foundations of the website. Using a house analogy, 
+            HTML would decide how many rooms etc. CSS would be the designer, deciding on the layout of the kitchen, the colour of the walls etc. 
+            The DOM is somewhat harder to explain with such a simple analogy - essentially it is what is making the HTML and CSS interact with each other
+            to create the website. Maybe a project manager is a good analogy, making sure the designer and builders communicate to create the house.
+          </p>
+          <h4> What is meant by boxifying design? </h4>
+          <p>
+            Boxifying design is a way of breaking down a complex design into easily manageable bits, so we can build from the bottom up rather than 
+            looking at the whole web page and trying to work out where to start.
+          </p>        
+          <h4> What is the box model? </h4>
+          <p>
+            The box model helps us understand that every webpage is broken down into boxes, each with their own 'margin', 'border' and 'padding' (each of which is editable) which 
+            will dictate how the element fits in alongside other boxes on the page.  
+          </p>
+          <a class="button" href="../index.html">Home</a>
+        </div> 
+      </div> 
+      <hr> 
+    </div>   
+  </body> 
+</html> 
