@@ -33,6 +33,10 @@ body {
 }
 
 .wireframe{
-  max-width:50px;
-  border: 100px;
+    
+  height: auto;
+  display: block;
+  max-width:100%;
+  margin: 2rem;
+
 }
